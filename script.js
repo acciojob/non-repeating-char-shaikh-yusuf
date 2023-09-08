@@ -1,9 +1,9 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
-       count=0
+       count=0;
 	for(int i=0;i<str.length;i++)
 	{   ;
-		if(c===str(i)){
+		if(c===str[i]){
 			count++;
 		}
 		
