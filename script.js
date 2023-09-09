@@ -4,7 +4,7 @@ function firstNonRepeatedChar(str) {
 		   {
 			    for(let j=0,j<=str.length,j++)
 					{
-						if(str.charAt(i)===str.charAt(j))
+						if(str.charAt(i)!==str.charAt(j))
 						{
 							alert(charAt(j));
 						}else
