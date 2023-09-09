@@ -6,9 +6,9 @@ function firstNonRepeatedChar(str) {
                 let j=0;
                    while(j<=str.length)
                        {
-                           if(str.charAt(i)!==str.charAt(j))
+                           if(str.charAt(i)!=str.charAt(j))
                            {
-                              return charAt(j);
+                              return str.charAt(i);
                            }else
                            {
                             return null;
